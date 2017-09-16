@@ -11,3 +11,7 @@ def input_to_index(position)
   position_int = position.to_i
   index = position_int - 1
 end
+
+def move(board, index, char="x")
+  board[index] = char
+end
