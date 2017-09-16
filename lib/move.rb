@@ -13,6 +13,6 @@ def input_to_index(position)
 end
 
 def move(board, index, char="x")
-  board[index] = char
+  board[index] = char.upcase
   return board
 end
