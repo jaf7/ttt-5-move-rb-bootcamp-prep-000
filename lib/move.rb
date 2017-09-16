@@ -12,7 +12,7 @@ def input_to_index(input)
   index = input_int - 1
 end
 
-def move(board, index, char="x")
+def move(board, index, char="X")
   board[index] = char.upcase
   return board
 end
